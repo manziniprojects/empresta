@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 
 export const Container = styled.header`
-background: gray;
+background: var(--text-title);
 `
 
 export const Content = styled.div`
 max-width: 1120px;
 margin: 0 auto;
 display: flex;
-padding: 2rem 1rem 12rem;
+padding: 2rem 1rem 2rem;
 align-items: center;
 justify-content: space-between;
 button{

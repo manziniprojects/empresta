@@ -1,5 +1,5 @@
 import { Container, Content } from './styles'
-
+import logoImg from '../../assets/logo.png'
 interface HeaderProps {
     onOpenNewTransactionModal: () => void
 }
@@ -10,10 +10,10 @@ export function Header({ onOpenNewTransactionModal }: HeaderProps) {
         <Container>
               
             <Content>
-              {/* .<img src={logoImg} alt="" />*/}
+           <img src={logoImg} alt="" />
           
               <button type="button" onClick={onOpenNewTransactionModal}>
-                    Novo
+                    Novo empréstimo
                 </button>
 
             </Content>
