@@ -11,7 +11,7 @@ export function Summary() {
                    
                 </header>
                 <strong>
-                    R$1.000,00
+                    5
                </strong>
             </div>
 
@@ -21,7 +21,7 @@ export function Summary() {
                  
                 </header>
                 <strong>
-                     - R$500,00
+                     - 2
                </strong>
             </div>
 
@@ -31,7 +31,7 @@ export function Summary() {
                   
                 </header>
                 <strong>
-                    R$500,00
+                    3
                </strong>
             </div>
         </Container>
